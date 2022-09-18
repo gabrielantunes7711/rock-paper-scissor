@@ -18,8 +18,6 @@ let youScore = document.querySelector('.you-score').querySelector('span')
 let computerScore = document.querySelector('.computer-score').querySelector('span')
 let audio = document.querySelector('audio')
 
-console.log(audio)
-
 function play(el) {
 
     audio.play()
