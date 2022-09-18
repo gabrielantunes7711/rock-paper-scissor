@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pedra, Papel, Tesoura</title>
+</head>
+<body>
+    <audio src="assets/mp3/Dxrk ダーク - RAVE (Official Audio) (320 kbps).mp3" loopgit></audio>
+    <div class="container-game">
+        <div class="game">
+            <div class="result">
+            </div>
+            <h2>You</h2>
+            <div class="player">
+                <img class="paper" src="assets/img/paper.png" alt="" onclick="play(this)">
+                <img class="rock" src="assets/img/rock.png" alt="" onclick="play(this)"> 
+                <img class="scissor" src="assets/img/scissor.png" alt="" onclick="play(this)">
+            </div>
+            <h2>Computer</h2>
+            <div class="computer">
+                <img class="paper" src="assets/img/paper.png" alt="">
+                <img class="rock" src="assets/img/rock.png" alt=""> 
+                <img class="scissor" src="assets/img/scissor.png" alt="">
+            </div>
+            <button class="new-game btn" onclick="reset()">New Game</button>
+        </div>
+        <div class="score">
+            <div class="you-score">
+                <h2>You</h2>
+                <span>0</span>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <span>0</span>
+            </div>
+            <button class="btn" onclick="resetScore()">Reset</button>
+        </div>
+    </div>  
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
